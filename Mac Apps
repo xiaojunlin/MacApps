@@ -1,0 +1,83 @@
+# 下载 Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# 下载第三方应用
+brew install hugo
+brew install axel  
+brew install python
+brew install git
+brew install node
+
+brew cask install squirrel
+brew cask install r
+brew cask install rstudio
+brew cask install adguard
+brew cask install anaconda
+brew cask install drawio
+brew cask install folx
+brew cask install free-download-manager
+brew cask install mactex
+brew cask install motrix
+brew cask install swish
+brew cask install telegram-desktop
+brew cask install transmission
+brew cask install 1password 
+brew cask install fliqlo 
+brew cask install mpv  
+brew cask install telegram
+brew cask install alfred
+brew cask install google-chrome
+brew cask install notion 
+brew cask install tencent-lemon
+brew cask install atext  
+brew cask install hiddenbar
+brew cask install one-switch
+brew cask install terminus
+brew cask install bob
+brew cask install iina
+brew cask install texpad
+brew cask install coteditor
+brew cask install imazing
+brew cask install paragon-ntfs
+brew cask install visual-studio-code
+brew cask install docker 
+brew cask install kap
+brew cask install pdf-expert 
+brew cask install vmware-fusion
+brew cask install dozer 
+brew cask install karabiner-elements 
+brew cask install popmaker
+brew cask install wechat
+brew cask install qq
+brew cask install dropbox
+brew cask install logitech-options
+brew cask install xquartz
+brew cask install ezip
+brew cask install spotify
+brew cask install zotero
+brew cask install fantastical
+brew cask install mendeley
+brew cask install surge
+
+# 下载 MAS
+brew install mas
+
+# 下载 Mac App Store 应用
+mas install 789066512 #Maipo
+mas install 497799835 #Xcode
+mas install 1495097700 #Alto's Odyssey
+mas install 409183694 #Keynote 讲演
+mas install 1287752517 #Alto's Adventure
+mas install 1025306797 #Resize Master
+mas install 1121965993 #CAJ云阅读
+mas install 557168941 #Tweetbot
+mas install 1059655371 #Newton
+mas install 409201541 #Pages 文稿
+mas install 880001334 #Reeder
+mas install 1142051783 #LG Screen Manager
+mas install 409203825 #Numbers 表格
+mas install 1153157709 #Speedtest
+mas install 445189367 #PopClip
+
+# 重置启动台图标顺序
+defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
