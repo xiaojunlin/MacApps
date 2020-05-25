@@ -2,63 +2,76 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # 下载第三方应用
-brew install hugo
-brew install axel  
-brew install python
+brew install archey
+brew install asciinema
+brew install axel
+brew install fd
 brew install git
-brew install node
+brew install hugo
 brew install libfaketime coreutils
-
-brew cask install squirrel
-brew cask install r
-brew cask install rstudio
+brew install m-cli
+brew install node
+brew install pandoc
+brew install python
+brew install trash
+brew install tree
+brew install wifi-password
+brew install youtube-dl
+brew install ytop
+  
+brew cask install 1password
 brew cask install adguard
+brew cask install alfred
 brew cask install anaconda
+brew cask install atext
+brew cask install bob
+brew cask install coteditor
+brew cask install docker
+brew cask install dozer
 brew cask install drawio
+brew cask install dropbox
+brew cask install ezip
+brew cask install fantastical
+brew cask install fliqlo
 brew cask install folx
 brew cask install free-download-manager
-brew cask install mactex
-brew cask install motrix
-brew cask install swish
-brew cask install telegram-desktop
-brew cask install transmission
-brew cask install 1password 
-brew cask install fliqlo 
-brew cask install mpv  
-brew cask install telegram
-brew cask install alfred
 brew cask install google-chrome
-brew cask install notion 
-brew cask install tencent-lemon
-brew cask install atext  
 brew cask install hiddenbar
-brew cask install one-switch
-brew cask install terminus
-brew cask install bob
 brew cask install iina
-brew cask install texpad
-brew cask install coteditor
 brew cask install imazing
-brew cask install paragon-ntfs
-brew cask install visual-studio-code
-brew cask install docker 
 brew cask install kap
-brew cask install pdf-expert 
-brew cask install vmware-fusion
-brew cask install dozer 
-brew cask install karabiner-elements 
-brew cask install popmaker
-brew cask install wechat
-brew cask install qq
-brew cask install dropbox
+brew cask install karabiner-elements
+brew cask install keycastr
 brew cask install logitech-options
-brew cask install xquartz
-brew cask install ezip
-brew cask install spotify
-brew cask install zotero
-brew cask install fantastical
+brew cask install mactex
 brew cask install mendeley
+brew cask install motrix
+brew cask install mpv
+brew cask install notion
+brew cask install one-switch
+brew cask install paragon-ntfs
+brew cask install pdf-expert
+brew cask install popmaker
+brew cask install qq
+brew cask install r
+brew cask install rstudio
+brew cask install spotify
+brew cask install squirrel
 brew cask install surge
+brew cask install swish
+brew cask install telegram
+brew cask install telegram-desktop
+brew cask install tencent-lemon
+brew cask install terminus
+brew cask install texpad
+brew cask install transmission
+brew cask install typora
+brew cask install visual-studio-code
+brew cask install vmware-fusion
+brew cask install wechat
+brew cask install xquartz
+
+npm install --global fkill-cli
 
 # 下载 MAS
 brew install mas
