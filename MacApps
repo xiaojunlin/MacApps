@@ -44,7 +44,6 @@ brew cask install karabiner-elements
 brew cask install keycastr
 brew cask install logitech-options
 brew cask install mactex
-brew cask install mendeley
 brew cask install motrix
 brew cask install mpv
 brew cask install notion
@@ -79,11 +78,8 @@ brew install mas
 # 下载 Mac App Store 应用
 mas install 789066512 #Maipo
 mas install 497799835 #Xcode
-mas install 1495097700 #Alto's Odyssey
 mas install 409183694 #Keynote 讲演
-mas install 1287752517 #Alto's Adventure
 mas install 1025306797 #Resize Master
-mas install 1121965993 #CAJ云阅读
 mas install 557168941 #Tweetbot
 mas install 1059655371 #Newton
 mas install 409201541 #Pages 文稿
@@ -92,6 +88,7 @@ mas install 1142051783 #LG Screen Manager
 mas install 409203825 #Numbers 表格
 mas install 1153157709 #Speedtest
 mas install 445189367 #PopClip
+mas install 1451273814 #nPlayer
 
 # 重置启动台图标顺序
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
