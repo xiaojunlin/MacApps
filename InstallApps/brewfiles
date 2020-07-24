@@ -10,6 +10,7 @@ brew install git
 brew install hugo
 brew install libfaketime coreutils
 brew install m-cli
+brew install mas
 brew install node
 brew install pandoc
 brew install python
@@ -20,7 +21,6 @@ brew install youtube-dl
 brew install ytop
   
 brew cask install 1password
-brew cask install adguard
 brew cask install alfred
 brew cask install anaconda
 brew cask install atext
@@ -39,6 +39,8 @@ brew cask install google-chrome
 brew cask install hiddenbar
 brew cask install iina
 brew cask install imazing
+brew cask install istat-menus
+brew cask install iterm2
 brew cask install kap
 brew cask install karabiner-elements
 brew cask install keycastr
@@ -73,7 +75,7 @@ brew cask install xquartz
 npm install --global fkill-cli
 
 # 下载 MAS
-brew install mas
+
 
 # 下载 Mac App Store 应用
 mas install 789066512 #Maipo
