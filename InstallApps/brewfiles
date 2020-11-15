@@ -10,19 +10,14 @@ brew install git
 brew install hugo
 brew install libfaketime coreutils
 brew install m-cli
-brew install mas
+
 brew install node
 brew install pandoc
 brew install python
 brew install trash
 brew install tree
 brew install wifi-password
-brew install youtube-dl
-brew install ytop
-  
-brew cask install 1password
 brew cask install alfred
-brew cask install anaconda
 brew cask install atext
 brew cask install bob
 brew cask install coteditor
@@ -30,6 +25,7 @@ brew cask install docker
 brew cask install dozer
 brew cask install drawio
 brew cask install dropbox
+brew cask install elpass
 brew cask install ezip
 brew cask install fantastical
 brew cask install fliqlo
@@ -46,6 +42,7 @@ brew cask install karabiner-elements
 brew cask install keycastr
 brew cask install logitech-options
 brew cask install mactex
+brew cask install mos
 brew cask install motrix
 brew cask install mpv
 brew cask install notion
@@ -53,30 +50,24 @@ brew cask install one-switch
 brew cask install paragon-ntfs
 brew cask install pdf-expert
 brew cask install popmaker
-brew cask install qq
-brew cask install r
-brew cask install rstudio
 brew cask install spotify
 brew cask install squirrel
 brew cask install surge
+brew cask install sip
 brew cask install swish
 brew cask install telegram
 brew cask install telegram-desktop
 brew cask install tencent-lemon
 brew cask install terminus
-brew cask install texpad
 brew cask install transmission
 brew cask install typora
 brew cask install visual-studio-code
 brew cask install vmware-fusion
-brew cask install wechat
 brew cask install xquartz
 
 npm install --global fkill-cli
 
-# 下载 MAS
-
-
+brew install mas
 # 下载 Mac App Store 应用
 mas install 789066512 #Maipo
 mas install 497799835 #Xcode
@@ -85,12 +76,20 @@ mas install 1025306797 #Resize Master
 mas install 557168941 #Tweetbot
 mas install 1059655371 #Newton
 mas install 409201541 #Pages 文稿
-mas install 880001334 #Reeder
+mas install 1529448980 #Reeder 5
 mas install 1142051783 #LG Screen Manager
 mas install 409203825 #Numbers 表格
 mas install 1153157709 #Speedtest
 mas install 445189367 #PopClip
 mas install 1451273814 #nPlayer
+mas install 992180193 #Emby 
+mas install 462054704 #Word
+mas install 462062816 #PowerPoint
+mas install 985367838 #Outlook
+mas install 1497685373 #VooV
+mas install 451108668  #QQ
+mas install 836500024 #WeChat
+
 
 # 重置启动台图标顺序
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
