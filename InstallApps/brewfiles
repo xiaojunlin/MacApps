@@ -66,6 +66,7 @@ brew cask install typora
 brew cask install visual-studio-code
 brew cask install vmware-fusion
 brew cask install xquartz
+brew cask install zoom
 
 npm install --global fkill-cli
 
