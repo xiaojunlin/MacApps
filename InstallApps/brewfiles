@@ -33,6 +33,7 @@ brew cask install folx
 brew cask install free-download-manager
 brew cask install google-chrome
 brew cask install hiddenbar
+brew cask install hyper
 brew cask install iina
 brew cask install imazing
 brew cask install istat-menus
@@ -58,6 +59,7 @@ brew cask install swish
 brew cask install telegram
 brew cask install telegram-desktop
 brew cask install tencent-lemon
+brew cask install tencent-meeting
 brew cask install terminus
 brew cask install transmission
 brew cask install typora
@@ -86,7 +88,6 @@ mas install 992180193 #Emby
 mas install 462054704 #Word
 mas install 462062816 #PowerPoint
 mas install 985367838 #Outlook
-mas install 1497685373 #VooV
 mas install 451108668  #QQ
 mas install 836500024 #WeChat
 
