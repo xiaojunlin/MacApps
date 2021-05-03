@@ -1,9 +1,8 @@
 # 下载 Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # 下载第三方应用
 brew install archey
-brew install asciinema
 brew install axel
 brew install fd
 brew install git
@@ -17,60 +16,61 @@ brew install python
 brew install trash
 brew install tree
 brew install wifi-password
-brew cask install alfred
-brew cask install atext
-brew cask install bob
-brew cask install coteditor
-brew cask install docker
-brew cask install dozer
-brew cask install drawio
-brew cask install dropbox
-brew cask install elpass
-brew cask install ezip
-brew cask install fantastical
-brew cask install fliqlo
-brew cask install folx
-brew cask install free-download-manager
-brew cask install google-chrome
-brew cask install hiddenbar
-brew cask install hyper
-brew cask install iina
-brew cask install imazing
-brew cask install istat-menus
-brew cask install iterm2
-brew cask install kap
-brew cask install karabiner-elements
-brew cask install keycastr
-brew cask install logitech-options
-brew cask install mactex
-brew cask install mos
-brew cask install motrix
-brew cask install mpv
-brew cask install notion
-brew cask install one-switch
-brew cask install paragon-ntfs
-brew cask install pdf-expert
-brew cask install popmaker
-brew cask install spotify
-brew cask install squirrel
-brew cask install surge
-brew cask install sip
-brew cask install swish
-brew cask install telegram
-brew cask install telegram-desktop
-brew cask install tencent-lemon
-brew cask install tencent-meeting
-brew cask install terminus
-brew cask install transmission
-brew cask install typora
-brew cask install visual-studio-code
-brew cask install vmware-fusion
-brew cask install xquartz
-brew cask install zoom
+brew install --cask alfred
+brew install --cask atext
+brew install --cask betterzip
+brew install --cask bob
+brew install --cask coteditor
+brew install --cask docker
+brew install --cask dozer
+brew install --cask drawio
+brew install --cask elpass
+brew install --cask ezip
+brew install --cask fantastical
+brew install --cask fliqlo
+brew install --cask google-chrome
+brew install --cask hammerspoon
+brew install --cask hiddenbar
+brew install --cask iina
+brew install --cask imazing
+brew install --cask istat-menus
+brew install --cask iterm2
+brew install --cask kap
+brew install --cask karabiner-elements
+brew install --cask keycastr
+brew install --cask logitech-options
+brew install --cask mactex
+brew install --cask mos
+brew install --cask motrix
+brew install --cask mpv
+brew install --cask notion
+brew install --cask one-switch
+brew install --cask paragon-ntfs
+brew install --cask pdf-expert
+brew install --cask popmaker
+brew install --cask r
+brew install --cask rstudio
+brew install --cask spotify
+brew install --cask squirrel
+brew install --cask surge
+brew install --cask sip
+brew install --cask swish
+brew install --cask telegram
+brew install --cask tencent-lemon
+brew install --cask tencent-meeting
+brew install --cask terminus
+brew install --cask texpad
+brew install --cask transmission
+brew install --cask typora
+brew install --cask visual-studio-code
+brew install --cask vmware-fusion
+brew install --cask xquartz
+brew install --cask zoom
 
 npm install --global fkill-cli
 
 brew install mas
+
 # 下载 Mac App Store 应用
 mas install 789066512 #Maipo
 mas install 497799835 #Xcode
