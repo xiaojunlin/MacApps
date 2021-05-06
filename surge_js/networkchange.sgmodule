@@ -1,6 +1,5 @@
 #!name=Network Change
-#!desc=连接家庭IP或WI-FI，Surge自动切换到直接连接模式，否则为规则模式
-#!system=mac
+#!desc=连接家庭内网IP或WI-FI时，Surge自动切换到直接连接模式，否则为规则模式
 
 [Script]
-NetworkChange = type=event, event-name=network-changed,script-path=https://raw.githubusercontent.com/xiaojunlin/MacApps/master/surge_js/networkchange.js
+networkchange = type=event, event-name=network-changed,script-path=https://raw.githubusercontent.com/xiaojunlin/MacApps/master/surge_js/networkchange.js
