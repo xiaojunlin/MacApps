@@ -1,6 +1,6 @@
 var wifiname = $network.wifi.ssid;
 var ipname = $network.v4.primaryAddress;
-var proxyip = ["192.168.100.97"];
+var proxyip = ["192.168.100.94"];
 var proxywifi = ["JTY_5G"];
 for (var i = 0; i < proxywifi.length; i++) {
 	if (wifiname==proxywifi[i]){
