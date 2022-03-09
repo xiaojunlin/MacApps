@@ -8,7 +8,7 @@ for (var i = 0; i < proxywifi.length; i++) {
 	};
 	if (i==proxywifi.length-1){
 		$surge.setOutboundMode("rule");
-		setTimeout(function(){$notification.post("On the way","Changed to Rule Proxy","");}, 3000);
+		setTimeout(function(){$notification.post("On the way","Changed to Rule-based Proxy","");}, 3000);
 		break;
 	};
 };
