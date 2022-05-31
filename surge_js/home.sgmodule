@@ -1,0 +1,5 @@
+#!name=Additional rules
+#!desc=内网控制
+
+[Rule]
+SRC-IP,192.168.100.3,DIRECT // Windows 10
