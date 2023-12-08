@@ -1,5 +1,5 @@
 var wifiname = $network.wifi.ssid;
-var proxywifi = ["JTY", "JTY-5G", "Minato", "Minato_5G"];
+var proxywifi = ["JTY", "JTY-5G", "Minato Network", "Minato_5G"];
 for (var i = 0; i < proxywifi.length; i++) {
 	if (wifiname==proxywifi[i]){
 		$surge.setOutboundMode("direct");		
